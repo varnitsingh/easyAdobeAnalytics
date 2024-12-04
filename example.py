@@ -1,4 +1,4 @@
-from easyAdobeAnalytics import query_and_retrieve
+from src.easyAdobeAnalytics import query_and_retrieve
 
 def easy_example():
     client_id = '<your-client-id>'
