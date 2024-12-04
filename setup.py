@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="easyAdobeAnalytics",
-    version="1.0.1",
+    name="easyadobeanalytics",
+    version="1.0.3",
     author="Varnit Singh",
     author_email="",
     description="This is an attempt at a usable python library to query report data from Adobe Analytics 1.4 API.",
