@@ -2,7 +2,14 @@
 
 This is an attempt at a usable python library to query report data from Adobe Analytics 1.4 API.
 
-# How it works
+## Installation
+Install the package using:
+```
+pip install easyAdobeAnalytics
+```
+You can also find the package on [PyPI](https://pypi.org/project/easyAdobeAnalytics/).
+
+## How it works
 * For authentication, you need to retrieve an access token from Adobe using client id and client secret.
 * First step is generating a json structure required by Adobe for querying data.
 * Depending upon if you need segments to be queried individually or not, generate the required number of report descriptions.
@@ -12,12 +19,8 @@ This is an attempt at a usable python library to query report data from Adobe An
 * Once the report is ready (depending upon the size of data), we get the actual report data using the `report_id`.
 * Finally we concatenate all the report data returned to create a single dataframe.
 
-# How to use
+## How to use
 
-Install the package using:
-```
-pip install git+https://github.com/varnitsingh/easyAdobeAnalytics.git
-```
 All the functionality is behind the `query_and_retrieve` function in the package. Define all the variables required and pass it on. Leave the variable as empty list for `elements,metrics,segments` in case you don't wish to provide one for a report.
 
 Example:
