@@ -4,7 +4,7 @@ setup(
     name="easyAdobeAnalytics",
     version="1.0.1",
     author="Varnit Singh",
-    author_email="varnitsingh25@gmail.com",
+    author_email="",
     description="This is an attempt at a usable python library to query report data from Adobe Analytics 1.4 API.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
